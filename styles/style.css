@@ -198,18 +198,22 @@
     /* .banner-btns {
         
     } */
+
+    .banner-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
       
     .banner-img img {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .workout-video {
-        top: -550px;
-        left: 280px;
+        display: none;
     }
 
     .Video-tutorial {
-        left: 50px;
-        top: -480px;
+        display: none;
     }
 }

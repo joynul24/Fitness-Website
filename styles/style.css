@@ -20,6 +20,12 @@
     color: #E6533C;
 }
 
+.section-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
 .btn-primary {
     background-color: #E6533C;
     color: #fff;
@@ -168,6 +174,19 @@
     border: 1px solid #fff;
 }
 
+/* main related styles */
+
+main {
+    max-width: 90%;
+    margin: 6.25rem auto;
+}
+
+/* habit section styles */
+.habbit-text {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 
@@ -191,22 +210,22 @@
         flex-direction: column;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 3rem;
     }
 
-    /* .banner-btns {
-        
-    } */
+    .banner-btns {
+        flex-direction: column;
+    }
+
+    .banner-btns button {
+        margin-bottom: 10px;
+    }
 
     .banner-img {
         display: flex;
         justify-content: center;
         width: 100%;
-    }
-      
-    .banner-img img {
-        /* width: 100%; */
     }
 
     .workout-video {
@@ -215,5 +234,12 @@
 
     .Video-tutorial {
         display: none;
+    }
+    /* habit section */
+    .habbit-text {
+        width: 100%;
+    }
+    .habbit-text h2 {
+        font-size: 2rem;
     }
 }

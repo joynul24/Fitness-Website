@@ -124,13 +124,13 @@
 .workout-video {
     background-color: rgba(225, 225, 225, 0.2);
     backdrop-filter: blur(4px);
-    width: 193px;
+    width: 50%;
     padding: 16px 20px;
     border-radius: 12px;
     position: relative;
     top: -400px;
     left: 150px;
-    
+
 }
 
 .workout-video h4 {
@@ -142,7 +142,7 @@
 .Video-tutorial {
     background-color: rgba(225, 225, 225, 0.2);
     backdrop-filter: blur(4px);
-    width: 193px;
+    width: 50%;
     padding: 16px 20px;
     border-radius: 12px;
     position: relative;
@@ -166,4 +166,50 @@
 #download-btn {
     background-color: #000000;
     border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+/* mobiel device view */
+
+@media screen and (max-width: 576px) {
+    .nab-options p {
+        display: none;
+    }
+
+    .nav-menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-title{
+        font-size: 3rem;
+    }
+
+    /* .banner-btns {
+        
+    } */
+      
+    .banner-img img {
+        width: 100%;
+    }
+
+    .workout-video {
+        top: -550px;
+        left: 280px;
+    }
+
+    .Video-tutorial {
+        left: 50px;
+        top: -480px;
+    }
 }

@@ -183,7 +183,7 @@ main {
 
 /* habit section styles */
 
-.habbit-text {
+.habbit-text{
     text-align: center;
 }
 
@@ -214,6 +214,7 @@ main {
 .extra-section {
     display: flex;
     gap: 150px;
+    margin: 0 auto;
     margin-top: 100px;
     padding: 30px 32px; 
     background-color: #1F1F1F;
@@ -240,12 +241,20 @@ main {
     border-radius: 18px;
 }
 
+/* team section styles */
+
+.team-section {
+    margin-top: 100px;
+}
+
+.team-content {
+    text-align: center;
+}
 
 
 
 
-
-/* mobiel device view */
+/* mobile device veiw */
 
 @media screen and (max-width: 576px) {
     .nab-options p {

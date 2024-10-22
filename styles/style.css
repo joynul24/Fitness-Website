@@ -86,7 +86,7 @@
 .banner {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 50px;
     max-width: 90%;
     margin: 0 auto;
     margin-top: 32px;
@@ -98,9 +98,9 @@
     align-items: center;
 }
 
-.banner-text {
+/* .banner-text {
     width: 60%;
-}
+} */
 
 .banner-title {
     font-size: 4.875rem;
@@ -114,11 +114,47 @@
 
 .banner-img {
     width: 30%;
+    /* position: relative; */
 }
 
 .banner-img img {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
+}
+
+/* banner img card */
+.workout-video {
+    background-color: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(4px);
+    width: 193px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    position: relative;
+    top: -525px;
+    left: 260px;
+}
+
+.workout-video h4 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.Video-tutorial {
+    background-color: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(4px);
+    width: 193px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    position: relative;
+    top: -250px;
+    left: -150px;
+}
+
+.Video-tutorial h4 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .banner-btns {

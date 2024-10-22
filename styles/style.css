@@ -265,7 +265,7 @@ main {
 
 .team-img {
     /* width: 326px; */
-    height: 272px;
+    height: 275px;
 }
 
 .team-img img {
@@ -345,5 +345,9 @@ main {
 
     .extra-mile-img {
         width: 100%;
+    }
+    /* team img grid container */
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

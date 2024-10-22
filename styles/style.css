@@ -182,10 +182,32 @@ main {
 }
 
 /* habit section styles */
+
 .habbit-text {
-    max-width: 60%;
-    margin: 0 auto;
     text-align: center;
+}
+
+.habits-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 54px;
+}
+
+.habit-card {
+    text-align: center;
+}
+
+.habit-card img {
+    border-radius: 100%;
+    border: 5px solid #1F1F1F;
+}
+
+.habit-card-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 8px;
 }
 
 
@@ -235,11 +257,16 @@ main {
     .Video-tutorial {
         display: none;
     }
+
     /* habit section */
     .habbit-text {
         width: 100%;
     }
+
     .habbit-text h2 {
         font-size: 2rem;
+    }
+    .habits-card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

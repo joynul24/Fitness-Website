@@ -335,6 +335,16 @@ form {
   border-radius: 18px;
 }
 
+.team-badge {
+  position: relative;
+  top: -70px;
+  left: 20px;
+  background-color: #ffffff31;
+  padding: 5px;
+  width: 130px;
+  border-radius: 10px;
+}
+
 .team-img {
   /* width: 326px; */
   height: 275px;

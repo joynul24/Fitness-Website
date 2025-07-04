@@ -1,113 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* shared styles */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .font-inter {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .body-color {
-    background-color: #000000;
-    color: #fff;
+  background-color: #000000;
+  color: #fff;
 }
 
 .color-primary {
-    color: #E6533C;
+  color: #e6533c;
 }
 
 .section-title {
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 14px;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
 }
 
 .btn-primary {
-    background-color: #E6533C;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 16px 40px;
-    border: none;
-    border-radius: 42px;
-    cursor: pointer;
-    font-family: "Inter", sans-serif;
+  background-color: #e6533c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 
 .common-description {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #FFFFFF80;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff80;
 }
-
 
 /* navber related styles */
 .header {
-    background-color: #1F1F1F;
-    padding-top: 3rem;
+  background-color: #1f1f1f;
+  padding-top: 3rem;
 }
 
 .navber {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 90%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .navber .nav-title {
-    font-size: 2.25rem;
-    font-weight: 800;
+  font-size: 2.25rem;
+  font-weight: 800;
 }
 
 .nab-options {
-    display: flex;
-    gap: 45px;
-    cursor: pointer;
-    font-size: 1.125rem;
-    font-weight: 400;
+  display: flex;
+  gap: 45px;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 .nav-home {
-    background-color: #E6533C;
-    padding: 8px 20px;
-    border-radius: 46px;
-    color: #fff;
+  background-color: #e6533c;
+  padding: 8px 20px;
+  border-radius: 46px;
+  color: #fff;
 }
 
 /* nan menu icons */
 .nav-menu-icon {
-    display: none;
+  display: none;
 }
-
 
 /* banner related styles */
 
 .banner {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
 }
 
 .banner-content {
-    width: 70%;
-    display: flex;
-    align-items: center;
+  width: 70%;
+  display: flex;
+  align-items: center;
 }
 
 .banner-title {
-    font-size: 4.875rem;
-    font-weight: 900;
-    margin-bottom: 28px;
+  font-size: 4.875rem;
+  font-weight: 900;
+  margin-bottom: 28px;
 }
 
 /* #shape {
@@ -115,394 +113,446 @@
 } */
 
 .banner-img {
-    /* width: 30%; */
-    width: 349px;
-    height: 580px;
-    /* position: relative; */
+  /* width: 30%; */
+  width: 349px;
+  height: 580px;
+  /* position: relative; */
 }
 
 .banner-img img {
-    /* width: 100%; */
-    height: 100%;
+  /* width: 100%; */
+  height: 100%;
 }
 
 /* banner img card */
 .workout-video {
-    background-color: rgba(225, 225, 225, 0.2);
-    backdrop-filter: blur(4px);
-    width: 50%;
-    padding: 16px 20px;
-    border-radius: 12px;
-    position: relative;
-    top: -400px;
-    left: 150px;
-
+  background-color: rgba(225, 225, 225, 0.2);
+  backdrop-filter: blur(4px);
+  width: 50%;
+  padding: 16px 20px;
+  border-radius: 12px;
+  position: relative;
+  top: -400px;
+  left: 150px;
 }
 
 .workout-video h4 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    margin-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 5px;
 }
 
 .Video-tutorial {
-    background-color: rgba(225, 225, 225, 0.2);
-    backdrop-filter: blur(4px);
-    width: 50%;
-    padding: 16px 20px;
-    border-radius: 12px;
-    position: relative;
-    top: -250px;
-    left: -150px;
+  background-color: rgba(225, 225, 225, 0.2);
+  backdrop-filter: blur(4px);
+  width: 50%;
+  padding: 16px 20px;
+  border-radius: 12px;
+  position: relative;
+  top: -250px;
+  left: -150px;
 }
 
 .Video-tutorial h4 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    margin-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 5px;
 }
 
 .banner-btns {
-    display: flex;
-    gap: 1rem;
-    margin-top: 28px;
+  display: flex;
+  gap: 1rem;
+  margin-top: 28px;
 }
 
 /* banner download btn */
 #download-btn {
-    background-color: #000000;
-    border: 1px solid #fff;
+  background-color: #000000;
+  border: 1px solid #fff;
 }
 
 /* main related styles */
 
 main {
-    max-width: 90%;
-    margin: 6.25rem auto;
+  max-width: 90%;
+  margin: 6.25rem auto;
 }
 
 /* habit section styles */
 
 .habbit-text {
-    text-align: center;
+  text-align: center;
 }
 
 .habits-card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin-top: 54px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 54px;
 }
 
 .habit-card {
-    text-align: center;
+  text-align: center;
 }
 
 .habit-card img {
-    border-radius: 100%;
-    border: 5px solid #1F1F1F;
+  border-radius: 100%;
+  border: 5px solid #1f1f1f;
 }
 
 .habit-card-title {
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 8px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 8px;
 }
 
 /* extra mile section */
 .extra-section {
-    display: flex;
-    gap: 150px;
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 30px 32px;
-    background-color: #1F1F1F;
-    border-radius: 18px;
+  display: flex;
+  gap: 150px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px 32px;
+  background-color: #1f1f1f;
+  border-radius: 18px;
 }
 
 .extra-mile-content {
-    width: 50%;
-    display: flex;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
-.extra-mile-text>button {
-    margin-top: 32px;
+.extra-mile-text > button {
+  margin-top: 32px;
 }
 
 .extra-mile-img {
-    width: 50%;
+  width: 50%;
 }
 
 .extra-mile-img img {
-    height: 312px;
-    width: 100%;
-    border-radius: 18px;
+  height: 312px;
+  width: 100%;
+  border-radius: 18px;
 }
 
 /* BMI Calculator section related styles */
 .bmi-calculator {
-    display: none;
+  display: none;
 }
 
 .table-chart-and-form {
-    display: none;
-    justify-content: space-between;
-    margin-top: 80px;
+  display: none;
+  justify-content: space-between;
+  margin-top: 80px;
 }
 
 .bmi-calculator {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .calculator-text {
-    text-align: center;
+  text-align: center;
 }
 
 .table-chart {
-    width: 50%;
+  width: 50%;
 }
 
 .table-chart .table-title,
 .form-title {
-    font-size: 1.75rem;
-    font-weight: 900;
-    margin-bottom: 40px;
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 40px;
 }
 
 .table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .table th,
 td {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
 }
 
 .table td {
-    color: #FFFFFF80;
+  color: #ffffff80;
 }
 
 form {
-    border: 1px solid red;
-    margin-top: 20px;
+  border: 1px solid red;
+  margin-top: 20px;
 }
 
 .table-form {
-    width: 50%;
+  width: 50%;
 }
 
 .first-input input,
 .second-input input {
-    width: 50%;
+  width: 50%;
 }
 
 .first-input,
 .second-input {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 #full-input2 {
-    width: 100%;
+  width: 100%;
 }
 
 .first-input input,
 .second-input input,
 .full-input input {
-    padding: 15px;
-    font-size: 12px 20px;
+  padding: 15px;
+  font-size: 12px 20px;
 }
-
 
 /* team section styles */
 
 .team-section {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .team-content {
-    text-align: center;
+  text-align: center;
 }
 
 /* team img container */
 
 .team-img-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 80px;
-    background-color: #1F1F1F;
-    padding: 20px;
-    border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 80px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 18px;
 }
 
 .team-img {
-    /* width: 326px; */
-    height: 275px;
+  /* width: 326px; */
+  height: 275px;
 }
 
 .team-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+/* exercises-section styles */
+
+.exercises-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.exercise-img-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  margin-top: 70px;
+}
+
+.exercise-img-container div {
+  height: 240px;
+}
+
+#exercise-img-1 {
+  grid-column: span 2;
+}
+
+#exercise-img-2 {
+  grid-column: span 4;
+}
+#exercise-img-3 {
+  grid-column: span 2;
+}
+#exercise-img-4 {
+  grid-column: span 3;
+}
+#exercise-img-5 {
+  grid-column: span 2;
+}
+#exercise-img-6 {
+  grid-column: span 3;
+}
+
+.exercise-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* footer related styles */
 
 .footer {
-    background-color: #1F1F1F;
-    padding: 65px 0px 165px 0px;
+  background-color: #1f1f1f;
+  padding: 65px 0px 165px 0px;
 }
 
 .footer-content {
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
 }
 
 .footer-title {
-    font-size: 4.375rem;
-    font-weight: 800;
-    color: #E6533C;
-    margin-bottom: 20px;
+  font-size: 4.375rem;
+  font-weight: 800;
+  color: #e6533c;
+  margin-bottom: 20px;
 }
 
 .footer-let {
-    width: 60%;
+  width: 60%;
 }
 
 .footer-column {
-    width: 40%;
+  width: 40%;
 }
 
-.footer-column>h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 40px;
+.footer-column > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
-.footer-column>p {
-    font-size: 1.438rem;
-    font-weight: 400;
-    color: #FFFFFF80;
-    margin-bottom: 20px;
-    cursor: pointer;
+.footer-column > p {
+  font-size: 1.438rem;
+  font-weight: 400;
+  color: #ffffff80;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .footer-end {
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-    text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
 }
 
 .footer-end hr {
-    border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer-end>p {
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF80;
-    margin-top: 35px;
+.footer-end > p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff80;
+  margin-top: 35px;
 }
-
-
-
-
-
 
 /* mobile device veiw */
 
 @media screen and (max-width: 576px) {
-    .nab-options p {
-        display: none;
-    }
+  .nab-options p {
+    display: none;
+  }
 
-    .nav-menu-icon {
-        display: block;
-        cursor: pointer;
-        font-size: 2rem;
-    }
+  .nav-menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+  }
 
-    .banner {
-        flex-direction: column;
-    }
+  .banner {
+    flex-direction: column;
+  }
 
-    .banner-title {
-        font-size: 3rem;
-    }
+  .banner-title {
+    font-size: 3rem;
+  }
 
-    .banner-btns {
-        flex-direction: column;
-    }
+  .banner-btns {
+    flex-direction: column;
+  }
 
-    .banner-btns button {
-        margin-bottom: 10px;
-    }
+  .banner-btns button {
+    margin-bottom: 10px;
+  }
 
-    .banner-img {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+  .banner-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
-    .workout-video {
-        display: none;
-    }
+  .workout-video {
+    display: none;
+  }
 
-    .Video-tutorial {
-        display: none;
-    }
+  .Video-tutorial {
+    display: none;
+  }
 
-    /* habit section */
-    .habbit-text {
-        width: 100%;
-    }
+  /* habit section */
+  .habbit-text {
+    width: 100%;
+  }
 
-    .habbit-text h2 {
-        font-size: 2rem;
-    }
+  .habbit-text h2 {
+    font-size: 2rem;
+  }
 
-    .habits-card-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .habits-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    /* extra mile section */
-    .extra-section {
-        flex-direction: column;
-        gap: 30px;
-    }
+  /* extra mile section */
+  .extra-section {
+    flex-direction: column;
+    gap: 30px;
+  }
 
-    .extra-mile-content {
-        width: 100%;
-    }
+  .extra-mile-content {
+    width: 100%;
+  }
 
-    .extra-mile-img {
-        width: 100%;
-    }
+  .extra-mile-img {
+    width: 100%;
+  }
 
-    /* team img grid container */
-    .team-img-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  /* team img grid container */
+  .team-img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    /* footer related styles */
-    .footer-content {
-        flex-direction: column;
-        gap: 30px;
-    }
+  /* Trainings and Exercises Section */
+  .exercise-img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-title {
-        font-size: 3rem;
-    }
+  #exercise-img-1,
+  #exercise-img-2,
+  #exercise-img-3,
+  #exercise-img-4,
+  #exercise-img-5,
+  #exercise-img-6 {
+    grid-column: span 1 !important;
+    margin-bottom: 5px;
+  }
 
-    .footer-column>h3 {
-        font-size: 25px;
-    }
+  /* footer related styles */
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-title {
+    font-size: 3rem;
+  }
+
+  .footer-column > h3 {
+    font-size: 25px;
+  }
 }
